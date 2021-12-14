@@ -28,7 +28,9 @@ module.exports = {
 
     plugins: [],
 
-    rules: {},
+    rules: {
+        "@typescript-eslint/no-var-requires": "off",
+    },
 
     settings: {
         react: {
