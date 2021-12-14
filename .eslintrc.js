@@ -6,6 +6,7 @@ module.exports = {
 
     env: {
         browser: true,
+        node: true,
         es2021: true,
     },
 
@@ -35,14 +36,4 @@ module.exports = {
             version: "detect",
         },
     },
-
-    overrides: [
-        {
-            // Set `env: node` for .eslintrc only
-            files: [".eslintrc.js"],
-            env: {
-                node: true,
-            },
-        },
-    ],
 };
